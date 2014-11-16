@@ -12,6 +12,7 @@ libraries for the [Spark Core](https://www.spark.io/) that provides access to th
 1. Setup the SPARK hardware
 	- LED + 1K resistor R1 connected to pin D0
 	- LDR + 10K resistor R2 connected to pin A0
+	```
 	      _____________________________________________
 	     |                                            |
 	   --|---------------------------------------     |
@@ -31,7 +32,7 @@ libraries for the [Spark Core](https://www.spark.io/) that provides access to th
 	                             |-/\/\/\/\--o-------o
 	                                  R2
 	                                 (10K)
-
+```
 2. Open the project in the Spark IDE (https://www.spark.io/build/)
 3. Fill in the missing strings (deviceId, clientId, clientKey, mac) and optionally change/add the sensor & actuator names, ids, descriptions, types
 	 For extra actuators, make certain to extend the callback code at the end of the sketch.
