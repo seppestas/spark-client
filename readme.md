@@ -4,9 +4,9 @@ spark-client
 libraries for the [Spark Core](https://www.spark.io/) that provides access to the ATT IOT platform.
 
 ### Installation
-	1. Download the source code
-		2a. Upload it to [the Spark online IDE](https://www.spark.io/build/)
-		2b. Use [the Spark Command line utility](http://docs.spark.io/cli/)
+1. Download the source code
+	2a. Upload it to [the Spark online IDE](https://www.spark.io/build/)
+	2b. Use [the Spark Command line utility](http://docs.spark.io/cli/)
 	
 ### Instructions
 1. Setup the SPARK hardware
