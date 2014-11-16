@@ -38,9 +38,9 @@
 
 void callback(char* topic, byte* payload, unsigned int length);
 
-char clientId[]  = "seppestas";
-char clientKey[] = "lfl311jr210";
-char deviceId[]  = "T3uhHqCR62z6zvqOroiYP1h";
+char clientId[]  = "";
+char clientKey[] = "";
+char deviceId[]  = "";
 
 ATTDevice Device(deviceId, clientId, clientKey);
 
